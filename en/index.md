@@ -19,30 +19,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur 
 * [Parnership](./partnership)
 * [Contact Us](./contact)
 
-<div class="mwsgeneric-base-html parbase section">
-	<section class="home-your-gov gc-srvinfo well well-sm brdr-0">
-		<div class="container">
-			<div markdown="1">
-			## Projects
+<div id="projects" markdown="1">
+## Projects
 
-			### Regulatory Metadata Labelling
-			The regulatory metadata labelling project aims to rework the way that public servants deal with regulations and regulatory changes. The project will have long lasting effects on the way that regulatory work is conducted!
+### Regulatory Metadata Labelling
+The regulatory metadata labelling project aims to rework the way that public servants deal with regulations and regulatory changes. The project will have long lasting effects on the way that regulatory work is conducted!
 
-			To find out more about the project or look at some of the results view the links below:
-			* Demonstration
-				* [Demonstration (Authentication Required, Please Contact)](https://dev.psinnovation.com/)
-			* Code
-				* [Open Source Code](https://www.github.com)
-			* Dataset
-				* [Open Data Set](https://open.canada.ca/en)
+To find out more about the project or look at some of the results view the links below:
+* Demonstration
+	* [Demonstration (Authentication Required, Please Contact)](https://dev.psinnovation.com/)
+* Code
+	* [Open Source Code](https://www.github.com)
+* Dataset
+	* [Open Data Set](https://open.canada.ca/en)
 
-			<a href="./projects" class="btn btn-primary">View all <strong>PROJECTS!</strong></a>
-			</div>
-		</div>
-	</section>
+<a href="./projects" class="btn btn-primary">View all <strong>PROJECTS!</strong></a>
 </div>
-
-
 
 ## Lessons Learned
 
