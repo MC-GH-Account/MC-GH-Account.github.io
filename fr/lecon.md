@@ -1,6 +1,6 @@
 ---
 title: Lessons Learned
-altLangPage: /fr/lecon
+altLangPage: /en/lessons
 dateModified: 2021-11-04
 description: "Contact Us"
 lang: en
