@@ -29,154 +29,20 @@ lang: en
 
 <p><small>Found an C&amp;IA implementation issue or you want to contribute at their development, let us know by submiting <a href="https://github.com/wet-boew/GCWeb/issues/new?title=C&amp;IA%20implementation%20error:%20">GCweb issue</a>, sending <a href="https://github.com/wet-boew/GCWeb/pulls">pull request</a> or by participating at one of our <a href="https://wet-boew.github.io/wet-boew-documentation/index-en.html#wet-boew-code-sprint">WET-BOEW weekly Tuesday code sprint</a>.</small></p>
 
-<!--
-The following status was not transposed yet with the repository structure reorg
-<details>
-	<summary>Meaning of statuses</summary>
-	<dl class="dl-horizontal mrgn-bttm-0">
-		<dt><span class="label label-success">Up to spec</span></dt>
-		<dd>Meet the latest published C&amp;IA specification.</dd>
-		<dt><span class="label label-success">Stable</span></dt>
-		<dd>Meet the latest published specification.</dd>
-		<dt><span class="label label-info">Informational</span></dt>
-		<dd>It's for your information. It's complete and suggestive but not defined by and from a specification yet.</dd>
-		<dt><span class="label label-info">Need to revalidate</span></dt>
-		<dd>Was meeting the preceding published specification, but it need to be manually revalidated to ensure it continues to meet the latest published specification.</dd>
-		<dt><span class="label label-warning">Partial</span></dt>
-		<dd>Partially up to spec or partially stable in order to meet other core web standards such WCAG 2.0 Level AA.</dd>
-		<dt><span class="label label-warning">Outdated</span></dt>
-		<dd>Don't meet the latest specification but met a previous version. It requires updates.</dd>
-		<dt><span class="label label-default">Backlog</span></dt>
-		<dd>Need to be developped.</dd>
-		<dt><span class="label label-danger">Incomplete</span></dt>
-		<dd>Incomplete because it don't fully meet all the specification yet. Still need developpement work.</dd>
-		<dt><span class="label label-danger">Deprecated</span></dt>
-		<dd>Do not use because it's deprecated, but listed here for your information.</dd>
-	</dl>
-</details>
--->
+# Projects
 
-<h2 id="projects">Projects</h2>
+## Regulatory Metadata Labelling
+The regulatory metadata labelling project aims to reqork the way that public servants deal with regulations and regulatory changes.
 
-{% assign page_group = site.data.i18n.page_group[ page.lang ] %}
-{% assign comp_status = site.data.i18n.component_status[ page.lang ] %}
+The project will have long lasting effects on the way that regulatory work is conducted.
 
-<ul>
-{% assign components = site.data.components %}
-{% for component in site.data.components %}
-	{% assign list-pages = component.pages %}
-	<li>{{ component.title[ page.lang ] }} (State: {{ comp_status[ component.status ] | default: "Undefined" }})
-	<ul>
-	{% for pgGroup in list-pages %}
-		{% assign grpkey = pgGroup[0] %}
-		<li>{{ page_group[ grpkey ] | default: "Unknown group" }}
-			<ul>
-			{% assign examples = pgGroup[1] | where: "language", page.lang %}
-			{% for example in examples %}
-				{% if example.path %}
-				<li><a href="components/
-							{%- if component.componentName -%}
-								{{ component.componentName }}/
-							{%- endif -%}
-						{{ example.path }}">{{ example.title }}</a></li>
-				{% elsif example.url %}
-					<li><a href="{{ example.url }}">{{ example.title }}</a></li>
-				{% else %}
-					<li>{{ example.title }}</li>
-				{% endif %}
-			{% endfor %}
-			</ul>
-		</li>
-	{% endfor %}
-	</ul></li>
-{% endfor %}
-</ul>
-
-<h2 id="templates">Templates</h2>
-<ul>
-{% for template in site.data.templates %}
-	{% assign list-pages = template.pages %}
-	<li>{{ template.title[ page.lang ] }} (État: {{ comp_status[ template.status ] | default: "Non définie" }})
-	<ul>
-	{% for pgGroup in list-pages %}
-		{% assign grpkey = pgGroup[0] %}
-		<li>{{ page_group[ grpkey ] | default: "Groupe inconnu" }}
-			<ul>
-			{% assign examples = pgGroup[1] | where: "language", page.lang %}
-			{% for example in examples %}
-				{% if example.path %}
-				<li><a href="templates/
-							{%- if template.componentName -%}
-								{{ template.componentName }}/
-							{%- endif -%}
-						{{ example.path }}" lang="{{ example.language }}" hreflang="{{ example.language }}">{{ example.title }}</a></li>
-				{% elsif example.url %}
-					<li><a href="{{ example.url }}" lang="{{ example.language }}" hreflang="{{ example.language }}">{{ example.title }}</a></li>
-				{% else %}
-					<li>{{ example.title }}</li>
-				{% endif %}
-			{% endfor %}
-			</ul>
-		</li>
-	{% endfor %}
-	</ul></li>
-{% endfor %}
-</ul>
-
-<h2 id="méli-mélo">Méli-mélo</h2>
-
-<p><a href="méli-mélo/méli-mélo-en.html">Consult méli-mélo dedicated page</a></p>
-
-
-<h2 id="sitesglobal">Sites and global functionality</h2>
-<ul>
-{% for item in site.data.sites %}
-	{% assign list-pages = item.pages %}
-	<li>{{ item.title[ page.lang ] }} (État: {{ comp_status[ item.status ] | default: "Non définie" }})
-	<ul>
-	{% for pgGroup in list-pages %}
-		{% assign grpkey = pgGroup[0] %}
-		<li>{{ page_group[ grpkey ] | default: "Groupe inconnu" }}
-			<ul>
-			{% assign examples = pgGroup[1] | where: "language", page.lang %}
-			{% for example in examples %}
-				{% if example.path %}
-				<li><a href="sites/
-							{%- if item.componentName -%}
-								{{ item.componentName }}/
-							{%- endif -%}
-						{{ example.path }}" lang="{{ example.language }}" hreflang="{{ example.language }}">{{ example.title }}</a></li>
-				{% elsif example.url %}
-					<li><a href="{{ example.url }}" lang="{{ example.language }}" hreflang="{{ example.language }}">{{ example.title }}</a></li>
-				{% else %}
-					<li>{{ example.title }}</li>
-				{% endif %}
-			{% endfor %}
-			</ul>
-		</li>
-	{% endfor %}
-	</ul></li>
-{% endfor %}
-</ul>
-
-<h2>WET-BOEW feature demos styled with Canada.ca theme</h2>
-<p><a href="/gcweb-compiled-demos/index.html#wet-boew">WET-BOEW feature overview</a></p>
-{:/}
-
-## GCWeb project documentation
-
-* [GCWeb theme - Meta information](docs/index.html)
-* [Quick implementation guide - GCWeb theme](docs/implementing.html)
-* [Migration instruction - GCWeb theme V5](docs/v5-migration.html)
-* [Archived - Documentation - GCWeb English](docs/GCWeb-en.html)
-* [Archived - Releases English](docs/release/index-en.html)
-* [Skeleton - Static header/footer - Bootstrap 3](docs/static-header-footer/bootstrap-3.html)
-* [Prototype skeleton - Static header/footer - Bootstrap 4](docs/static-header-footer/bootstrap-4.html)
-
-Evaluations and reports
-
-* [1 - Accessibility assessment as 2018-11-14](docs/evaluation-report/1-accessibility.html)
-* [2 - Regression user acceptance testing as 2018-11-16](docs/evaluation-report/2-wetplugin-gcweb2.html)
+To find out more about the project or look at some of the results view the links below:
+* Demonstration
+	* [Demonstration (Authentication Required, Please Contact)](https://dev.psinnovation.com/)
+* Code
+	* [Open Source Code](https://www.github.com)
+* Dataset
+	* [Open Data Set](https://open.canada.ca/en)
 
 ## Developping for GCWeb
 
