@@ -29,9 +29,11 @@ lang: en
 
 <p><small>Found an C&amp;IA implementation issue or you want to contribute at their development, let us know by submiting <a href="https://github.com/wet-boew/GCWeb/issues/new?title=C&amp;IA%20implementation%20error:%20">GCweb issue</a>, sending <a href="https://github.com/wet-boew/GCWeb/pulls">pull request</a> or by participating at one of our <a href="https://wet-boew.github.io/wet-boew-documentation/index-en.html#wet-boew-code-sprint">WET-BOEW weekly Tuesday code sprint</a>.</small></p>
 
-# Projects
+{:/}
 
-## Regulatory Metadata Labelling
+## Projects
+
+### Regulatory Metadata Labelling
 The regulatory metadata labelling project aims to reqork the way that public servants deal with regulations and regulatory changes.
 
 The project will have long lasting effects on the way that regulatory work is conducted.
