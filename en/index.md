@@ -19,7 +19,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur 
 * [Parnership](./partnership)
 * [Contact Us](./contact)
 
-<div id="projects">
+<div id="projects" markdown="1">
 ## Projects
 
 ### Regulatory Metadata Labelling
@@ -49,7 +49,7 @@ Read about our journey below, and find out all you need to know about Rules As C
 
 <a href="./lessons" class="btn btn-primary">View all <strong>REPORTS!</strong></a>
 
-<div id="get-in-touch">
+<div id="get-in-touch" markdown="1">
 ## Get In Touch
 
 We want to hear from you to learn more about your needs as a regulator! Send us a message:
