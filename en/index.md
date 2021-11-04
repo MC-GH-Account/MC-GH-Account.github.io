@@ -17,7 +17,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur 
 * [Projects](#projects)
 * [Lessons Learned](#lessons-learned)
 * [Parnership](./partnership)
-* [Contact Us!](./contact)
+* [Contact Us](./contact)
 
 ## Projects
 
@@ -32,7 +32,7 @@ To find out more about the project or look at some of the results view the links
 * Dataset
 	* [Open Data Set](https://open.canada.ca/en)
 
-<a href="./partnership" class="btn btn-primary">View all <strong>PROJECTS!</strong></a>
+<a href="./projects" class="btn btn-primary">View all <strong>PROJECTS!</strong></a>
 
 ## Lessons Learned
 
