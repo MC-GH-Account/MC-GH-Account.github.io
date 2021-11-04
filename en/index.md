@@ -12,10 +12,12 @@ We are a group of public servants looking to revolutionize the way that work is 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur malesuada feugiat. Suspendisse potenti. Suspendisse auctor nec tortor sed varius. Sed eu orci lobortis, commodo libero eu, facilisis tortor. Vestibulum sed neque dapibus, molestie sem et, blandit augue. Sed in accumsan magna. Donec in neque quis lacus dictum commodo vitae ut est. Proin in consectetur leo. In ultricies rutrum libero, in malesuada nisi auctor eu. In malesuada, ligula nec bibendum elementum, odio nisi consequat neque, vitae posuere metus odio nec erat. Donec sit amet nisi volutpat, lobortis magna ut, elementum libero. Vestibulum semper eu nibh dictum vestibulum. Sed tempor eget metus non malesuada. Nullam semper nunc ut neque pretium, sit amet suscipit sapien fermentum. Curabitur consectetur sagittis gravida.
 
+<a href="./partnership" class="btn btn-primary">Work with <strong>US!</strong></a>
+
 * [Projects](#projects)
 * [Lessons Learned](#lessons-learned)
-* [Parnership](/partnership)
-* [Work With Us!](/contact)
+* [Parnership](./partnership)
+* [Work With Us!](./contact)
 
 ## Projects
 
