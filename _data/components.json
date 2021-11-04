@@ -29,24 +29,24 @@
 				{
 					"title": "Demonstration (Authentication Required, Please Contact)",
 					"language": "en",
-					"path": "https://dev.psinnovation.com"
+					"url": "https://dev.psinnovation.com"
 				},
 				{
 					"title": "Demonstration (Authentication Required, Please Contact)",
 					"language": "fr",
-					"path": "https://dev.psinnovation.com"
+					"url": "https://dev.psinnovation.com"
 				}
 			],
 			"code": [
 				{
 					"title": "Open Source Code",
 					"language": "en",
-					"path": "https://www.github.com"
+					"url": "https://www.github.com"
 				},
 				{
 					"title": "Open Source Code",
 					"language": "fr",
-					"path": "https://www.github.com"
+					"url": "https://www.github.com"
 				}
 			],
 			"dataset": [
