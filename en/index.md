@@ -6,37 +6,21 @@ description: "Home page describing all the components of the Canada.ca theme, na
 lang: en
 ---
 
-{::nomarkdown}
-<div class="row">
-	<div class="col-md-7 col-lg-8">
-		<p>The page templates and design patterns below comprise a reference implementation of the <a href="https://design.canada.ca">Canada.ca design system</a>, including the mandatory requirement of the Content and Information Architecture (C&amp;IA) Specification. Government of Canada departments and agencies can contribute additional patterns and templates via <a href="https://github.com/wet-boew/GCWeb">GCWeb github repository</a>.</p>
-	</div>
-	<div class="col-xs-12 col-md-auto pull-right">
-		<p><a href="https://github.com/wet-boew/GCWeb/archive/v9.5.0.zip" class="btn btn-primary">Download GCWeb theme <strong>v9.5.0</strong></a><br />
-			<small>(<time>{{ page.dateModified | %F }}</time> - <a href="https://github.com/wet-boew/gcweb/releases/tag/v9.5.0">Release notes</a>)</small></p>
-	</div>
-</div>
+Welcome to the landing page for the Public Sector Innovation team!
 
-<ul class="colcount-md-2">
-	<li><a href="docs/index.html">GCWeb v5 Summary and others technical notes</a></li>
-	<li><a href="docs/implementing.html">Implementing GCWeb</a></li>
-	<li><a href="#components">Components</a></li>
-	<li><a href="#templates">Templates</a></li>
-	<li><a href="méli-mélo/méli-mélo-en.html">Méli-mélo features</a></li>
-	<li><a href="thématique/gc-thématique-en.html">GC promotional thematic</a></li>
-	<li><a href="#sitesglobal">Sites and global functionality</a></li>
-</ul>
+We are a group of public servants looking to revolutionize the way that work is done in the public service. We are going to innovate!
 
-<p><small>Found an C&amp;IA implementation issue or you want to contribute at their development, let us know by submiting <a href="https://github.com/wet-boew/GCWeb/issues/new?title=C&amp;IA%20implementation%20error:%20">GCweb issue</a>, sending <a href="https://github.com/wet-boew/GCWeb/pulls">pull request</a> or by participating at one of our <a href="https://wet-boew.github.io/wet-boew-documentation/index-en.html#wet-boew-code-sprint">WET-BOEW weekly Tuesday code sprint</a>.</small></p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur malesuada feugiat. Suspendisse potenti. Suspendisse auctor nec tortor sed varius. Sed eu orci lobortis, commodo libero eu, facilisis tortor. Vestibulum sed neque dapibus, molestie sem et, blandit augue. Sed in accumsan magna. Donec in neque quis lacus dictum commodo vitae ut est. Proin in consectetur leo. In ultricies rutrum libero, in malesuada nisi auctor eu. In malesuada, ligula nec bibendum elementum, odio nisi consequat neque, vitae posuere metus odio nec erat. Donec sit amet nisi volutpat, lobortis magna ut, elementum libero. Vestibulum semper eu nibh dictum vestibulum. Sed tempor eget metus non malesuada. Nullam semper nunc ut neque pretium, sit amet suscipit sapien fermentum. Curabitur consectetur sagittis gravida.
 
-{:/}
+* [Projects](#projects)
+* [Lessons Learned](#lessons-learned)
+* [Parnership](/partnership)
+* [Work With Us!](/contact)
 
 ## Projects
 
 ### Regulatory Metadata Labelling
-The regulatory metadata labelling project aims to reqork the way that public servants deal with regulations and regulatory changes.
-
-The project will have long lasting effects on the way that regulatory work is conducted.
+The regulatory metadata labelling project aims to reqork the way that public servants deal with regulations and regulatory changes. The project will have long lasting effects on the way that regulatory work is conducted!
 
 To find out more about the project or look at some of the results view the links below:
 * Demonstration
