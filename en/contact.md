@@ -6,6 +6,7 @@ description:
 footer: true
 langtoggle: true
 lang: en
+altLangPage: /fr/
 noMainContainer: false
 sitemenu: true
 sitesearch: true
