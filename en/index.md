@@ -51,4 +51,4 @@ Read about our journey below, and find out all you need to know about Rules As C
 
 We want to hear from you to learn more about your needs as a regulator! Send us a message:
 
-<a href="./partnership" class="btn btn-primary"><strong>CONTACT</strong> Us.</a>
+<a href="./partnership" class="btn btn-primary">Contact <strong>US!</strong></a>
