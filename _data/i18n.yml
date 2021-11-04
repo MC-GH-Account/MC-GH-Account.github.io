@@ -1,0 +1,35 @@
+# Groupe de pages
+page_group:
+  en:
+    examples: Examples
+    docs: Documentations
+    related: Related documents
+    impl-ref: Implementation reference
+    spec: Specification
+    test: Tests pages
+    demo: Demonstration
+    code: Code
+    dataset: Dataset
+  fr:
+    examples: Exemples
+    docs: Documentations
+    related: Documents relié
+    test: Pages d'essaie
+    impl-ref: Référence d'implémentation
+    spec: Spécification
+    demo: Demonstration
+    code: Code
+    dataset: Dataset
+
+# Status de component
+component_status:
+  en:
+    provisional: Provisional
+    stable: Stable
+    deprecated: Deprecated
+    prototype: Prototype
+  fr:
+    provisional: Provisionel
+    stable: Stable
+    deprecated: Obsolète
+    prototype: Prototype
