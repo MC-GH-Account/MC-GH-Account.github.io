@@ -17,7 +17,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consectetur 
 * [Projects](#projects)
 * [Lessons Learned](#lessons-learned)
 * [Parnership](./partnership)
-* [Work With Us!](./contact)
+* [Contact Us!](./contact)
 
 ## Projects
 
@@ -45,10 +45,10 @@ Read about our journey below, and find out all you need to know about Rules As C
 * More Information
 	* [Rules As Code Introduction](https://letmegooglethat.com/?q=rules+as+code)
 
-<a href="./partnership" class="btn btn-primary">View all <strong>REPORTS!</strong></a>
+<a href="./lessons" class="btn btn-primary">View all <strong>REPORTS!</strong></a>
 
 ## Get In Touch
 
 We want to hear from you to learn more about your needs as a regulator! Send us a message:
 
-<a href="./partnership" class="btn btn-primary">Contact <strong>US!</strong></a>
+<a href="./contact" class="btn btn-secondary">Contact <strong>US!</strong></a>
