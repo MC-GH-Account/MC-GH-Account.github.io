@@ -43,7 +43,7 @@ For more info about how this is rendered:
     <!--- For each project in data-project --->
     {% assign components = site.data.components %}
     {% for component in components %}
-    <div class="col-6 my-3">
+    <div class="col-5 my-3">
       <div class="mx-2 p-3 cell">
         <!--- currentProject.Title--->
         <div class="cell-title">
