@@ -35,16 +35,16 @@ Duis vitae nisl quis justo dignissim bibendum eget eu tellus. Curabitur iaculis,
           {% for pgGroup in component.pages %}
             {% assign grpkey = pgGroup[0] %}
             <div class="row cell-url">
-                <div class="col">
+                <div class="col-2">
                 {{ page_group[ grpkey ] | default: "View" }}: 
                 </div>
                 {% assign examples = pgGroup[1] | where: "language", page.lang %}
                 {% for example in examples %}
                     {% if example.path %}
-                        <div class="col-10">
+                        <div class="col">
                         <a href="{{  example.path  }}">{{ example.title }}</a>
                     {% elsif example.url %}
-                        <div class="col-10">
+                        <div class="col">
                         <a href="{{  example.url  }}">{{ example.title }}</a>
                     {% else %}
                         <li>{{ example.title }}</li>
