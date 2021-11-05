@@ -30,7 +30,6 @@ Duis vitae nisl quis justo dignissim bibendum eget eu tellus. Curabitur iaculis,
         <div class="cell-description">
           <p>{{ component.description[ page.lang ] }}</p>
         </div>
-        <div class="container">
           <!--- For each link in currentProject.links --->
           {% for pgGroup in component.pages %}
             {% assign grpkey = pgGroup[0] %}
@@ -51,7 +50,6 @@ Duis vitae nisl quis justo dignissim bibendum eget eu tellus. Curabitur iaculis,
                     {% endif %}
                 {% endfor %}
                 </div>
-            </div>
           {% endfor %}
         </div>
       </div>
@@ -59,6 +57,7 @@ Duis vitae nisl quis justo dignissim bibendum eget eu tellus. Curabitur iaculis,
     {% endfor %}
   </div>
 </div>  
+</br></br>
 {:/}
 
-[back](./)
+[Back](./)
